@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Conor's page - Margin, border, and padding explained</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <h1 id="headerID">Margin, border, and padding explained</h1>
+    </div>
+    <div class="content">
+      <h3 class="backbutton"><a href="https://cburkeg.github.io/">Back</a></h3>
+    </div>
+    <div class="content">
+      <div class="blogintro">
+        <h3>Box model</h3>
+
+        <p>
+          CSS uses a 'box model' to display HTML elements on screen. Each HTML
+          element is surrounded by a box that is drawn around the element and
+          separates the content itself (contained within the box) from the boxes
+          of other elements. Each box has an associated margin, border, and
+          padding. These variables are used to buffer and separate the boxed
+          elements from one another, and also determine the position of content
+          with respect to its own box. The figure below shows the margin,
+          border, and padding of an example box.
+        </p>
+        <div class="content">
+          <img
+            class="columnimage"
+            src="../styles/margindiagram.png"
+            alt="Diagram showing margin, border, and padding"
+          />
+        </div>
+        <h3>Margin</h3>
+        <p>
+          The <b>margin</b> is the area (shown in orange above) that surrounds
+          the box associated with the example HTML element. The size of the
+          margin can be independently set (in absolute units or in relative
+          units) for each side of the box. A box's margin is the distance
+          between the border of the box and the margins of other boxes belonging
+          to other HTML elements. In other words, if two elements are displayed
+          side by side on a page, then the boxes surrounding those elements are
+          separated by their combined margins. The margin is also the distance
+          between the boxes of outer-most elements and the edge of the page. The
+          margin does not affect the spacing of the content itself relative to
+          the box's border.
+        </p>
+
+        <h3>Border</h3>
+        <p>
+          The <b>border</b> (shown in black in the figure above) is the outer
+          portion of the box that surrounds the padding and content. The border
+          separates the content from the remainder of the page and can be hidden
+          or shown. There are many visual aspects of the border that can be
+          changed including the border's style (e.g. solid or dashed) and its
+          colour. The width of the border can also be varied. The border on each
+          side of the box can be customised independently of the other sides.
+        </p>
+
+        <h3>Padding</h3>
+        <p>
+          The <b>padding</b> (shown in blue in the figure above) is the area
+          between the content itself and the internal border of the box. The
+          padding can be also measured in absolute or relative units and, like
+          the margin, can be independently set for the different sides of the
+          box. The combined size of the padding and the content itself
+          determines the dimensions of the box and its border.
+        </p>
+
+        <h3>
+          How can I learn more about an element's margin, border, and padding?
+        </h3>
+        <p>
+          It can be difficult to determine whether the spacing of a given
+          element is due to the element's margin or padding, as both the margin
+          and padding are transparent. It can even be difficult to determine
+          <i>which</i> margin or padding is responsible for the spacing between
+          adjacent elements. Dev tools can be very helpful in these situations
+          as they colour-code the margin and padding of a selected element using
+          the above scheme. The Styles tab can also tell you where the values
+          for the margin, border, and padding are being inherited from.
+        </p>
+
+        <div class="content">
+          <img
+            class="columnimage"
+            src="../styles/dekatron.png"
+            alt="Dev Tools showing margin, border, and padding on Wikipedia heading"
+          />
+        </div>
+        <div class="content">
+          <h3 class="backbutton">
+            <a href="https://cburkeg.github.io/">Back</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

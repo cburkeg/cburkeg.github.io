@@ -13,6 +13,15 @@ h3 {
   padding: 0 1em;
   text-align: justify;
 }
+
+.blogintro {
+  max-width: 960;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(245, 212, 152);
+  margin: 2em 2em;
+}
+
 .content {
   /* margin: 1em 10%; */
   display: flex;
@@ -21,22 +30,28 @@ h3 {
   gap: 3em;
 }
 
+.backbutton {
+  padding: 0;
+  margin: 0;
+}
+
 .columnleft {
   flex: 1;
   max-width: 480px;
   border-style: solid;
   border-width: 1px;
   background-color: rgb(245, 212, 152);
-  margin: 0 0 1em;
+  margin: 0 0 1.5em 1.5em;
 }
 
 .columnright {
+  flex: 1;
   max-width: 480px;
-  margin: 0 0 1em;
+  margin: 0 1.5em 1.5em 0em;
 }
 
 .columnimage {
-  max-width: 480px;
+  max-width: 100%;
 }
 
 .navcontent {
@@ -57,7 +72,7 @@ h3 {
   margin: 0em 1em 1em;
 }
 
-#about {
+.onecol {
   max-width: 960;
   border-style: solid;
   border-width: 1px;
