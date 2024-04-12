@@ -19,6 +19,11 @@ h3 {
   text-align: justify;
 }
 
+h2 {
+  padding: 0 1em;
+  text-align: justify;
+}
+
 .blogintro {
   max-width: 960;
   border-style: solid;
