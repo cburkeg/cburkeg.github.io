@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Conor's N-body simulator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="buttonform">
+        <label for="Nform">N (number of bodies):</label>
+        <input type="text" id="Nform" name="Nform" value="3" />
+        <label for="stepForm">Number of steps:</label>
+        <input type="text" id="stepForm" name="stepForm" value="10000" />
+        <button type="button" id="simButton">Run simulation</button>
+      </form>
+    </div>
+    <div class="container">
+      <canvas id="space"></canvas>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
