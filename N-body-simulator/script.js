@@ -5,7 +5,7 @@ let bodies = {}
 
 // numBodies is equal to N, the number of bodies in the sim
 // Start with N = 3 initially, add the option to change later
-let numBodies = 3
+let numBodies = 5
 
 // canvasSize determines the size of the coordinate space for the bodies
 let canvasSize = 1000
@@ -19,7 +19,7 @@ let stepCount = 0
 
 // The simulation stepLimit is a predetermined number of steps the simulation should run for.
 // A value of 0 means there is no limit.
-let stepLimit = 10000
+let stepLimit = 50000
 
 // If simRun == 1, the simulation is running. If simRun == 0, the simulation is paused/stopped.
 let simRun = 1
